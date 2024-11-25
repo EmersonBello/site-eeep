@@ -1,0 +1,85 @@
+nav {
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+nav.scrolled {
+    background-color: rgba(255, 255, 255, 1); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo:hover {
+    filter: brightness(1.1);
+    transform: scale(1.1) rotate(5deg);   
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #df4881; 
+}
+
+/* Linha animada */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 75%;
+    height: 1px;
+    background-color: #df4881;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 18px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}

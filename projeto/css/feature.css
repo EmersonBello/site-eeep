@@ -1,0 +1,10 @@
+.feature-img {
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.feature-img.anim {
+    animation-delay: 1.5s;
+}

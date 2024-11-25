@@ -1,0 +1,51 @@
+.main_info  {
+    display: inline-block;
+    animation: deslocamento 2s forwards; 
+    opacity: 0;
+    font-size: 14px;
+}
+
+@keyframes deslocamento {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+.personages_info img {
+    width: 400px;
+    height: 450px;
+    animation: movimento 3s forwards, voando 3s 3s infinite ease-in-out;
+    opacity: 0;
+}
+
+@keyframes movimento {
+    0% {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }  
+}
+
+@keyframes voando {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.personages_info img {
+    filter: drop-shadow(10px 7px 10px var(--blue));
+}

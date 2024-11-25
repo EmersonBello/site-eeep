@@ -1,0 +1,17 @@
+.inicio {
+    margin-top: 10%;
+}
+
+.inicio h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    font-size: 20px; /* Tamanho do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-bottom: 15px; /* Espaço abaixo dos parágrafos */
+}
+

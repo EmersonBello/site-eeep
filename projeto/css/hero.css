@@ -1,0 +1,25 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../assets/WhatsApp\ Image\ 2024-10-25\ at\ 22.33.21.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0;  /* mexe com o espaçamento */
+    overflow: hidden;
+    position: relative;
+}
+
+/* animação */
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

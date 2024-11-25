@@ -1,0 +1,39 @@
+.informe {
+    margin-top: 10%;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;           
+    justify-content: center;
+}
+
+.image-item {
+    text-align: center;  
+}
+
+.informe h2 {
+    text-align: center; 
+    font-weight: 600;   
+    font-size: 25px;            
+    margin-bottom: 20px; 
+}
+
+.image-box {
+    width: 250px;
+    height: 350px; 
+    background-size: cover; 
+    background-position: top; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s;
+}
+
+.image-box:hover {
+    transform: scale(1.05); 
+}
+
+.informe-paragraph {
+    font-size: 16px;        
+    margin-top: 8px;     
+}

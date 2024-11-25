@@ -1,0 +1,147 @@
+section {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    max-width: 1440px;
+    background-color: #E3E3E3; 
+    color: #000;
+}
+
+.about_info {
+    width: 90%;
+    max-width: 1440px;
+}
+
+.about_info h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.about_info p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 200;
+    padding: 12px 0 5px 0;
+}
+
+.curiosidade_info{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    max-width: 1440px;
+    background-color: #E3E3E3; 
+    color: #000;
+}
+
+.curiosidade_info {
+    width: 90%;
+    max-width: 1440px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.curiosidade_info h3 {
+    margin-top: 20px;
+}
+
+.curiosidade_info p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 200;
+    padding: 10px 0 5px 0;
+}
+
+.curiosidade_info p {
+    box-shadow: 0 2px 4px var(--blue);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.career_info {
+    width: 90%;
+    max-width: 1440px;
+}
+
+.career_info h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 400;
+} 
+
+.career_info p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 200;
+    padding: 10px 0 5px 0;
+}
+
+.Projects_info {
+    width: 90%;
+    max-width: 1440px;
+}
+
+.Projects_info h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.Projects_info p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    padding: 5px 0 5px 0;
+}
+
+.Projects_info li p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 200;
+    padding: 12px 0 5px 0;
+}
+
+.Projects_info a  {
+    color: var(--blue);
+    
+}
+
+.Projects_info li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.Projects_info span {
+    font-weight: 500;
+}
+
+footer {
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 20px;
+    background: #E3E3E3;    
+}
+
+footer .bottom-footer {
+    border-top: 2px solid #000;
+    background: var(--blue);
+    display: flex;
+    justify-content: center;
+}
+
+footer .bottom-footer p {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    padding: 12px 0 5px 0;
+
+}

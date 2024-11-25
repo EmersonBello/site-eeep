@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>fórmulario</title>
+</head>
+<body>
+    <a href="index.html" target="_parent" class="btn">Voltar</a>
+
+    <div class="box">
+        <form action="config.php" method="POST">
+            <fieldset>
+                <legend><b>Formulário de Inscrições</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome completo:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email">Email:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone">Telefone:</label>
+                </div>
+                <br>
+                <p>Curso:</p>
+                <input type="radio" name="curso" value="administracao" id="administracao" required>
+                <label for="administracao">Administração</label>
+                <input type="radio" name="curso" value="agronegocio" id="agronegocio" required>
+                <label for="agronegocio">Agronegócio</label>
+                <input type="radio" name="curso" value="desenvolvimento" id="desenvolvimento" required>
+                <label for="desenvolvimento">Desenvolvimento de Sistemas</label>
+                <input type="radio" name="curso" value="enfermagem" id="enfermagem" required>
+                <label for="enfermagem">Enfermagem</label>
+                <input type="radio" name="curso" value="logistica" id="logistica" required>
+                <label for="logistica">Logística</label>
+                <br><br>
+                <p>Identificação Racial:</p>
+                <input type="radio" name="identificacao_racial" value="branco" id="branco" required>
+                <label for="branco">Branco</label>
+                <input type="radio" name="identificacao_racial" value="negro" id="negro" required>
+                <label for="negro">Negro</label>
+                <input type="radio" name="identificacao_racial" value="pardo" id="pardo" required>
+                <label for="pardo">Pardo</label>
+                <input type="radio" name="identificacao_racial" value="indigena" id="indigena" required>
+                <label for="indigena">Indígena</label>
+                <input type="radio" name="identificacao_racial" value="outro" id="outro_racial" required>
+                <label for="outro_racial">Outro</label>
+                <br><br>
+                <div class="selectBox">
+                <label for="evento">Qual evento você deseja participar?</label>
+                <select name="evento" id="evento" required>
+                    <option value="" disabled selected>Selecione um evento</option>
+                    <option value="miss_eeep">Miss EEEP</option>
+                    <option value="desfile_consciencia_negra">Desfile da Consciência Negra</option>
+                </select>
+                </div>
+                <br>
+                <div class="button-container">
+                    <input type="submit" name="submit" id="submit" value="Enviar">
+                    <input type="reset" id="reset" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+    </div>  
+</body>
+</html>
